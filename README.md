@@ -1,8 +1,6 @@
 # QuantumPay-Core
 QuantumPay-Core is the foundational repository for the QuantumPay Network, encompassing the core algorithms, smart contracts, and protocols that power our ultra-fast, secure payment infrastructure.
 
-Certainly! Below is a complete and functional `README.md` file that you can use directly in your Git repository for the QuantumPay Network project. This file is structured to provide essential information about the project, installation instructions, usage guidelines, and more.
-
 # QuantumPay Network
 
 QuantumPay Network is a cutting-edge payment infrastructure designed to revolutionize digital transactions by providing a robust, scalable, and secure platform for users worldwide. By integrating advanced blockchain technology with artificial intelligence, QuantumPay aims to facilitate seamless, instantaneous transactions while addressing the critical challenges of interoperability, security, and cost-effectiveness in the current digital payment landscape.
