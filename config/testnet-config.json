@@ -1,0 +1,32 @@
+{
+    "network": "testnet",
+    "rpcUrl": "https://testnet.rpc.quantumpay.network",
+    "explorerUrl": "https://explorer.testnet.quantumpay.network",
+    "contractAddresses": {
+        "token": "0xA1B2C3D4E5F60708090A0B0C0D0E0F1011121314",
+        "exchange": "0xB1C2D3E4F5060708090A0B0C0D0E0F1011121315",
+        "staking": "0xC1D2E3F4A5060708090A0B0C0D0E0F1011121316"
+    },
+    "transaction": {
+        "gasLimit": 300000,
+        "gasPrice": "20000000000",  // 20 Gwei
+        "maxRetries": 5,
+        "retryDelay": 2000  // 2 seconds
+    },
+    "wallet": {
+        "defaultMnemonic": "pistol maple swing tumble tumble tumble tumble tumble tumble tumble tumble tumble",
+        "keyDerivationPath": "m/44'/60'/0'/0"
+    },
+    "logging": {
+        "level": "debug",
+        "logFile": "./logs/testnet.log"
+    },
+    "api": {
+        "baseUrl": "https://api.testnet.quantumpay.network/v1",
+        "timeout": 10000  // 10 seconds
+    },
+    "security": {
+        "encryptionKey": "your-testnet-encryption-key-here",
+        "apiKey": "your-testnet-api-key-here"
+    }
+}
