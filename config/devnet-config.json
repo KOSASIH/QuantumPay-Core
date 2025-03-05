@@ -1,0 +1,32 @@
+{
+    "network": "devnet",
+    "rpcUrl": "https://devnet.rpc.quantumpay.network",
+    "explorerUrl": "https://explorer.devnet.quantumpay.network",
+    "contractAddresses": {
+        "token": "0xD1E2F3A4B5C60708090A0B0C0D0E0F1011121314",
+        "exchange": "0xE1F2A3B4C5060708090A0B0C0D0E0F1011121315",
+        "staking": "0xF1A2B3C4D5060708090A0B0C0D0E0F1011121316"
+    },
+    "transaction": {
+        "gasLimit": 200000,
+        "gasPrice": "10000000000",  // 10 Gwei
+        "maxRetries": 5,
+        "retryDelay": 1000  // 1 second
+    },
+    "wallet": {
+        "defaultMnemonic": "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat",
+        "keyDerivationPath": "m/44'/60'/0'/0"
+    },
+    "logging": {
+        "level": "debug",
+        "logFile": "./logs/devnet.log"
+    },
+    "api": {
+        "baseUrl": "https://api.devnet.quantumpay.network/v1",
+        "timeout": 5000  // 5 seconds
+    },
+    "security": {
+        "encryptionKey": "your-devnet-encryption-key-here",
+        "apiKey": "your-devnet-api-key-here"
+    }
+}
