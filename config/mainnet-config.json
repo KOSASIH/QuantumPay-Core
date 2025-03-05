@@ -1,0 +1,32 @@
+{
+    "network": "mainnet",
+    "rpcUrl": "https://mainnet.rpc.quantumpay.network",
+    "explorerUrl": "https://explorer.quantumpay.network",
+    "contractAddresses": {
+        "token": "0xA1B2C3D4E5F60708090A0B0C0D0E0F1011121314",
+        "exchange": "0xB1C2D3E4F5060708090A0B0C0D0E0F1011121315",
+        "staking": "0xC1D2E3F4A5060708090A0B0C0D0E0F1011121316"
+    },
+    "transaction": {
+        "gasLimit": 300000,
+        "gasPrice": "50000000000",  // 50 Gwei
+        "maxRetries": 3,
+        "retryDelay": 3000  // 3 seconds
+    },
+    "wallet": {
+        "defaultMnemonic": "pistol maple swing tumble tumble tumble tumble tumble tumble tumble tumble tumble",
+        "keyDerivationPath": "m/44'/60'/0'/0"
+    },
+    "logging": {
+        "level": "info",
+        "logFile": "./logs/mainnet.log"
+    },
+    "api": {
+        "baseUrl": "https://api.quantumpay.network/v1",
+        "timeout": 15000  // 15 seconds
+    },
+    "security": {
+        "encryptionKey": "your-encryption-key-here",
+        "apiKey": "your-api-key-here"
+    }
+}
